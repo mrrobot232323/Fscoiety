@@ -1,65 +1,73 @@
-# SkillSwap
+# Welcome to your Lovable project
 
-SkillSwap is a modern platform to swap skills with others, learn new abilities, and connect with peers in a secure environment.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/311e1eef-c2e1-4eed-afda-2e694b41ff60
 
-## 🚀 Features
+## How can I edit this code?
 
-- **Swap skills with others**
-- **Learn new skills**
-- **Connect with peers**
-- **Safe and secure**
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 🖥️ Interface Overview
+Simply visit the [Lovable Project](https://lovable.dev/projects/311e1eef-c2e1-4eed-afda-2e694b41ff60) and start prompting.
 
-| Section         | Description                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| Home            | Quick access to start swapping, view your profile, and platform highlights.  |
-| Browse          | Search and filter available skills and users.                               |
-| My Profile      | Manage your skills offered, skills wanted, and availability.                |
-| My Swaps        | Track pending, accepted, and declined skill swap requests.                  |
-| Settings        | Customize your profile and notification preferences.                        |
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## 📝 How It Works
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-1. **Sign Up / Log In:** Create your SkillSwap profile.
-2. **List Your Skills:** Add the skills you can offer and those you want to learn.
-3. **Browse & Connect:** Find peers with matching interests and send swap requests.
-4. **Manage Swaps:** Accept or decline requests from your dashboard.
-5. **Grow Together:** Learn, teach, and expand your network!
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
----
+Follow these steps:
 
-## 🧑‍💻 Example User Flow
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-- **Profile Example:**  
-  - Name: Jacqueline D.  
-  - Location: New York, NY  
-  - Skills Offered: Language Tutoring, Web Development  
-  - Skills Wanted: Graphic Design, Public Speaking  
-  - Availability: Weekdays & Weekends  
-  - Privacy: Public or Private profile toggle
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-- **Swap Example:**  
-  - Pending: Marc Demo (Status: Pending)  
-  - Declined: Name (Status: Declined)  
-  - Actions: Accept or Reject swap requests
+# Step 3: Install the necessary dependencies.
+npm i
 
----
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-## 📚 Technologies Used
+**Edit a file directly in GitHub**
 
-- React.js (Frontend)
-- Node.js (Backend)
-- MongoDB (Database)
-- Styled Components (UI Styling)
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
-## 📦 Getting Started
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/311e1eef-c2e1-4eed-afda-2e694b41ff60) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
